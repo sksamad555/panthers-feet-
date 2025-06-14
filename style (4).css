@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #111;
+  color: #fff;
+  padding: 1em;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  padding: 2em;
+}
+
+.shoe {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1em;
+  width: 300px;
+}
+
+.shoe img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 1em;
+  margin-top: 2em;
+}
